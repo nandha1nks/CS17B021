@@ -8,7 +8,7 @@ main:
 	addi $s1,$zero,0
 	add $s2,$zero,$zero
 	add $t0,$zero,$zero
-	add $t1,$zero,1
+	addi $t1,$zero,1
 
 L1:	and $t2,$t1,$s0
 	bne $t2,$zero,L2
